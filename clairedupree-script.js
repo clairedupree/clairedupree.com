@@ -31,6 +31,14 @@ $(document).ready(() => {
       $(this).animate({ fontSize: "3rem" }, 150);
     }
   );
+  $(".socials span").hover(
+    function () {
+      $(this).animate({ fontSize: "1.45rem" }, 150);
+    },
+    function () {
+      $(this).animate({ fontSize: "1.5rem" }, 150);
+    }
+  );
 
   // $("#test").hover(
   //   function () {
