@@ -26,7 +26,7 @@ header a:hover {
 }
 .home-button {
   background-color: pink;
-  padding: 5px 10px 8px 10px;
+  padding: 5px 10px 10px 10px;
   border-radius: 30px;
   border: solid 1px white;
   /* border: solid 1px red; */
@@ -37,12 +37,12 @@ header a:hover {
 }
 .home-button a {
   font-weight: bold;
-  /* background-color: pink;
-  padding: 5px;
-  border: solid 1px red; */
+}
+.home-button a:hover {
+  color: red;
 }
 header li {
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 footer {
   text-align: right;
@@ -81,7 +81,15 @@ main {
 .socials {
   font-size: 1.5rem;
 }
-
+.socials li {
+  padding: 0 0.2rem;
+}
+/* .leftmost {
+  padding-left: 0;
+}
+.rightmost {
+  padding-right: 0;
+} */
 .socials a:link {
   color: red;
 }
