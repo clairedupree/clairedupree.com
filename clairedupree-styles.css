@@ -1,0 +1,43 @@
+ul {
+  padding-left: 0;
+  display: inline;
+}
+li {
+  display: inline;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  text-align: right;
+}
+.home-header {
+  font-size: 10rem;
+  margin: 0;
+}
+.home-subheader {
+  font-size: 3rem;
+  margin: 0;
+}
+img {
+  align-self: flex-end;
+}
+#wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: relative; */
+}
+main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#headshot {
+  width: 450px;
+}
