@@ -2,6 +2,17 @@
 const homeHeaders = document.querySelector(".home-main");
 homeHeaders.style.color = "red";
 const initialOpacity = 0.8;
+
+// select nav jump links, add scroll eventlistener
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    // add scroll animation
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});
 // $(".home-main").style.color = "red";
 // homeHeaders.firstChild.style.color = "blue";
 // add a hover effect for each letter

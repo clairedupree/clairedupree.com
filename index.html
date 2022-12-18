@@ -12,69 +12,136 @@
 </head>
 
 <body>
+  <!-- WRAPPER -->
+  <!-- todo: fix navbar and section padding styles inside wrapper -->
   <div id="wrapper">
-    <!-- <div id="header-container"> -->
-    <!-- <header> -->
-    <!-- TODO: re-organize element tags, move header to hi.im claire -->
-    <!-- TODO  -->
-    <nav>
-      <div id="navbar">
-        <div id="nav-flex">
-          <div id="nav-home">
-            <a class="home-button" href="index.html">:-)</a>
-          </div>
 
-          <div id="nav-links">
-            <ul class="nav-links">
-              <li><a href="skills.html">tech</a></li>
-              <li><a href="art.html">art</a></li>
-              <li style="padding-right:0;"><a href=" contact.html">contact</a></li>
-            </ul>
+    <!-- NAVIGATION -->
+    <header>
+      <nav>
+        <div id="navbar">
+          <div id="nav-flex">
+            <div>
+              <a class="home-button" href="#home">:-)</a>
+            </div>
+
+            <div>
+              <ul class="nav-links">
+                <li><a href="#tech">tech</a></li>
+                <li><a href="#art">art</a></li>
+                <li style="padding-right:0;"><a href="#contact">contact</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
-    <!-- </header> -->
-    <!-- </div> -->
-    <main>
-      <div class="left home-main">
-        <h1 class="home-header">
-          <span id="test">h</span><span>i</span><span>,</span><span>
-          </span><span>i</span><span>'</span><span>m</span><br>
-          <span>c</span><span>l</span><span>a</span><span>i</span><span>r</span><span>e</span><span>
-          </span><span>:</span><span>-</span><span>)</span>
-          <!-- hi, i'm<br>claire :-) -->
-        </h1>
-        <h2 class="home-subheader">
-          <span>w</span><span>e</span><span>b</span><span>
-          </span><span>d</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span><span>
-          </span><span>+</span><span>
-          </span><span>a</span><span>r</span><span>t</span><span>i</span><span>s</span><span>t</span>
+      </nav>
+    </header>
 
-          <!-- <h3 class="home-subheader" style="float:left">web developer + artist</h3> -->
-          </h3>
-          <h3 class="socials">
-            <!-- <span>follow</span>
-            <span>me </span> -->
-            follow me
-            <!-- <span> -->
-            <ul>
-              <span>
-                <li style="padding-left: .2rem;" class="main-nav-link"><a target="_blank"
-                    href="https://www.linkedin.com/in/clairedupree/">@linkedin</a>
-                </li>
-              </span>
-              <span>
-                <li class="main-nav-link"><a target="_blank" href="https://www.github.com/clairedupree">@github</a></li>
-              </span>
-            </ul>
-            <!-- </span> -->
-          </h3>
-      </div>
-      <div class="right">
-        <img class="headshot" src="images/oval-headshot.jpg">
-      </div>
+    <main>
+      <!-- HOMEPAGE -->
+      <section id="home">
+
+        <!-- Header -->
+        <!-- TODO: why do styles break when deleting this div -->
+        <div class="home-main">
+          <h1 class="home-header">
+            <span id="test">h</span><span>i</span><span>,</span><span>
+            </span><span>i</span><span>'</span><span>m</span><br>
+            <span>c</span><span>l</span><span>a</span><span>i</span><span>r</span><span>e</span><span>
+            </span><span>:</span><span>-</span><span>)</span>
+            <!-- hi, i'm<br>claire :-) -->
+          </h1>
+
+          <!-- Subheader -->
+          <h2 class="home-subheader">
+            <span>w</span><span>e</span><span>b</span><span>
+            </span><span>d</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span><span>
+            </span><span>+</span><span>
+            </span><span>a</span><span>r</span><span>t</span><span>i</span><span>s</span><span>t</span>
+            <!-- <h3 class="home-subheader" style="float:left">web developer + artist</h3> -->
+            </h3>
+
+            <!-- Social Links -->
+            <h3 class="socials">
+              follow me
+              <ul>
+                <span>
+                  <li style="padding-left: .2rem;" class="main-nav-link"><a target="_blank"
+                      href="https://www.linkedin.com/in/clairedupree/">@linkedin</a>
+                  </li>
+                </span>
+                <span>
+                  <li class="main-nav-link"><a target="_blank" href="https://www.github.com/clairedupree">@github</a>
+                  </li>
+                </span>
+              </ul>
+            </h3>
+        </div>
+
+        <!-- Portrait -->
+        <div class="right">
+          <img class="headshot" src="images/oval-headshot.jpg">
+        </div>
+        <!-- </header> -->
+      </section>
+      <!-- end homepage -->
+
+      <!-- TECH -->
+      <section id="tech">
+        <h1 class="section-header">technical skills</h1>
+      </section>
+      <!-- end tech page -->
+
+      <!-- ART -->
+      <section id="art">
+        <h1 class="section-header">art</h1>
+      </section>
+      <!-- end art page -->
+
+      <!-- ABOUT -->
+      <section id="about">
+        <h1 class="section-header">about</h1>
+        <p>Claire Dupree is an artist-turned-software developer. Originally a classically-trained painter, graduated in
+          2016 with a Bachelors of Fine Arts from Salisbury University, MD, USA.
+          As an artist, she posseses a honed eye for design and user experience, informed also by her background in
+          hospitality.
+          Always a lover of science and engineering, Claire followed her hobbies into a career in
+          tech.
+        </p>
+        <P>
+          Claire currently works as a Front-End Developer in Maryland. She applies her skills in communication and
+          customer
+          service to client interfacing, perfomring product demonstrations, and fostering a collaborative workplace.
+        </P>
+        <p>
+          she / her / hers
+        </p>
+      </section>
+      <!-- end about page -->
+
+      <!-- CONTACT -->
+      <section id="contact">
+        <h1 class="section-header">contact</h1>
+        Email me at <span>
+          <a href="mailto:contact@clairedupree.com">contact@clairedupree.com</a>
+        </span>
+
+        <ul>
+          <li style="padding-left: .2rem;" class="main-nav-link">Connect with me on <a target="_blank"
+              href="https://www.linkedin.com/in/clairedupree/">linkedin</a>
+          </li>
+
+          <li class="main-nav-link"><a target="_blank" href="https://www.github.com/clairedupree">@github</a>
+          </li>
+
+        </ul>
+
+      </section>
+      <!-- end contact page -->
     </main>
+    <footer>
+      &copy; 2022 Claire Dupree
+    </footer>
   </div>
 </body>
 
