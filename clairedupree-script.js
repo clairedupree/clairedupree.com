@@ -1,7 +1,8 @@
 "use strict";
-const homeHeaders = document.querySelector(".home-main");
-homeHeaders.style.color = "red";
+// const homeHeaders = document.querySelector(".home-main");
+// homeHeaders.style.color = "red";
 const initialOpacity = 0.8;
+const galleryImages = $("#gallery-images");
 
 // select nav jump links, add scroll eventlistener
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
@@ -13,6 +14,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     });
   });
 });
+
 // $(".home-main").style.color = "red";
 // homeHeaders.firstChild.style.color = "blue";
 // add a hover effect for each letter
@@ -22,7 +24,16 @@ $(document).ready(() => {
   //   () => console.log("in"),
   //   () => console.log("out")
   // );
-  $(".home-header span").hover(
+  $(".hover-animate-sect span").hover(
+    function () {
+      $(this).animate({ fontSize: "7rem" }, 150);
+    },
+    function () {
+      $(this).animate({ fontSize: "8rem" }, 150);
+    }
+  );
+  $(".hover-animate-h1 span").hover(
+    // $(".home-header span").hover(
     function () {
       // $(this).animate({ opacity: 0.8 }, 150);
       $(this).animate({ fontSize: "9rem" }, 150);
@@ -34,7 +45,8 @@ $(document).ready(() => {
       // $(this).css("color", "red");
     }
   );
-  $(".home-subheader span").hover(
+  $(".hover-animate-h2 span").hover(
+    // $(".home-subheader span").hover(
     function () {
       $(this).animate({ fontSize: "2.8rem" }, 150);
     },

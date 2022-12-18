@@ -52,18 +52,23 @@ nav a:visited {
   border: solid 1px white;
 }
 
-nav a:hover {
-  border: solid 1px red;
-}
-
 .home-button {
   background-color: pink;
   padding: 5px 10px 10px 10px;
   border-radius: 30px;
 }
+.home-button:hover {
+  border: solid 1px red;
+  /* text-decoration: underline; */
+}
 .nav-links a {
   padding: 0.2rem 0.3rem 0.4rem 0.3rem;
   border-radius: 10px;
+}
+
+.nav-links a:hover {
+  border: dotted 1px red;
+  /* text-decoration: underline; */
 }
 
 /* SECTIONS */
@@ -83,6 +88,7 @@ section {
   color: red;
   font-size: 8rem;
   padding-top: 9rem;
+  /* margin: 0; */
 }
 
 /* HOMEPAGE */
@@ -90,6 +96,7 @@ section {
   padding-top: 13rem;
   display: flex;
   justify-content: space-between;
+  color: red;
 }
 
 .home-header {
@@ -126,7 +133,7 @@ section {
 
 .socials a:hover {
   color: red;
-  border: 1px solid red;
+  border: 1px dotted red;
 }
 
 .headshot {
@@ -137,6 +144,57 @@ section {
 /* TECH */
 
 /* ART */
+#art ul {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+#art li {
+  display: inline;
+}
+
+#art li img {
+  max-height: 500px;
+}
+
+/* GALLERY */
+.gallery-button {
+  float: left;
+  font-size: 3rem;
+  margin: 0;
+  padding: 17rem 1rem 1rem 1rem;
+}
+#gallery {
+  padding-bottom: 15rem;
+}
+
+#gallery-display {
+  overflow: hidden;
+  float: left;
+  width: 80%;
+  padding-left: 0;
+}
+
+#gallery-images {
+  left: 0px;
+  /* position: relative; */
+  width: 10000px;
+  list-style: none;
+}
+
+#gallery-display ul {
+  padding: 0;
+}
+
+#gallery-images li {
+  float: left;
+  display: inline;
+}
+
+#gallery-images li img {
+  height: 400px;
+}
 
 /* ABOUT */
 #about {
@@ -152,13 +210,56 @@ section {
 
 /* CONTACT */
 #contact {
+  color: red;
   font-size: 1.5rem;
   text-align: center;
+}
+#contact li {
+  list-style: none;
+  padding: 0.6rem;
+}
+#contact ul {
+  padding-left: 0;
+}
+
+#contact a:link,
+#contact a:visited {
+  color: red;
+  /* font-weight: bold; */
+  /* background-color: pink; */
+  border: 1px solid white;
+  /* padding: 0.2rem 0.3rem 0.4rem 0.3rem; */
+  border-radius: 10px;
+}
+
+#contact a:hover {
+  color: red;
+  /* border: 1px solid red; */
+  text-decoration: underline;
 }
 
 /* FOOTER */
 footer {
   text-align: center;
   color: grey;
-  padding: 15rem 0 5rem 0;
+  /* padding: 15rem 0 5rem 0; */
+  padding-bottom: 5rem;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer li {
+  display: inline;
+  padding: 0.5rem;
+}
+
+footer a:link,
+footer a:visited {
+  color: grey;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
