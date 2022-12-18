@@ -2,79 +2,68 @@ ul {
   padding-left: 0;
   display: inline;
 }
+
 li {
   display: inline;
 }
+
 a {
   text-decoration: none;
 }
 
-/* header { */
-/* position: fixed; */
-/* top: 0;
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.8rem;
-  margin-top: 3rem;
-  color: red; */
-/* } */
-
+/* NAVIGATION CONTAINER */
 #navbar {
   background-color: white;
   position: fixed;
   font-weight: bold;
-  /* width: 100%; */
-  /* margin: auto; */
-  /* width: 1200px; */
   width: 95%;
   top: 0;
   left: 0;
-  /* left: 0; */
-  border: 1px solid red;
-  /* right: 0; */
+  /* border: 1px solid red; */
   font-size: 1.8rem;
-  /* margin-top: 3rem; */
-  /* padding-top: 3rem; */
   padding: 3rem;
-  /* justify-content: right; */
-  /* position: relative; */
-  /* float: right; */
-  /* position: absolute; */
 }
+
 #nav-flex {
-  border: 1px solid blue;
-  /* position: absolute; */
-  /* top: 50%; */
-  /* left: 50%; */
+  /* border: 1px solid blue; */
   width: 65%;
   display: flex;
   justify-content: space-between;
   margin: auto;
 }
+
+/* NAVIGATION BAR */
 nav li {
   padding: 0 2rem;
 }
 
-nav a:link {
-  color: red;
-}
+nav a:link,
 nav a:visited {
   color: red;
+  border: solid 1px white;
 }
+
 nav a:hover {
-  /* color: brown; */
+  border: solid 1px red;
 }
+
 .home-button {
   background-color: pink;
   padding: 5px 10px 10px 10px;
   border-radius: 30px;
-  border: solid 1px white;
+  /* border: solid 1px white; */
   /* border: solid 1px red; */
 }
+.nav-links a {
+  /* background-color: pink; */
+  padding: 0.2rem 0.3rem 0.4rem 0.3rem;
+  border-radius: 10px;
+}
 .home-button:hover {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   /* background-color: pink; */
 }
+
 /* .home-button a {
   font-weight: bold;
 }
@@ -82,9 +71,9 @@ nav a:hover {
   color: red;
 } */
 
-footer {
+/* footer {
   text-align: right;
-}
+} */
 .home-header {
   font-size: 10rem;
   margin: 0;
@@ -127,9 +116,10 @@ main {
 .socials a:link,
 .socials a:visited {
   color: red;
+  /* background-color: pink; */
   border: 1px solid white;
   padding: 0.2rem 0.3rem 0.4rem 0.3rem;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 /* .socials a:visited {
   color: red;
@@ -137,7 +127,7 @@ main {
 } */
 .socials a:hover {
   color: red;
-  padding: 0.2rem 0.3rem 0.4rem 0.3rem;
-  border-radius: 10px;
+  /* padding: 0.2rem 0.3rem 0.4rem 0.3rem; */
+  /* border-radius: 10px; */
   border: 1px solid red;
 }
