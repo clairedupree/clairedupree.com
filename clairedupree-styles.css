@@ -8,21 +8,61 @@ li {
 a {
   text-decoration: none;
 }
-header {
+
+/* header { */
+/* position: fixed; */
+/* top: 0;
   display: flex;
   justify-content: space-between;
   font-size: 1.8rem;
   margin-top: 3rem;
+  color: red; */
+/* } */
+
+#navbar {
+  background-color: white;
+  position: fixed;
+  font-weight: bold;
+  /* width: 100%; */
+  /* margin: auto; */
+  /* width: 1200px; */
+  width: 95%;
+  top: 0;
+  left: 0;
+  /* left: 0; */
+  border: 1px solid red;
+  /* right: 0; */
+  font-size: 1.8rem;
+  /* margin-top: 3rem; */
+  /* padding-top: 3rem; */
+  padding: 3rem;
+  /* justify-content: right; */
+  /* position: relative; */
+  /* float: right; */
+  /* position: absolute; */
+}
+#nav-flex {
+  border: 1px solid blue;
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+nav li {
+  padding: 0 2rem;
+}
+
+nav a:link {
   color: red;
 }
-header a:link {
+nav a:visited {
   color: red;
 }
-header a:visited {
-  color: red;
-}
-header a:hover {
-  color: brown;
+nav a:hover {
+  /* color: brown; */
 }
 .home-button {
   background-color: pink;
@@ -35,15 +75,13 @@ header a:hover {
   border: solid 1px red;
   /* background-color: pink; */
 }
-.home-button a {
+/* .home-button a {
   font-weight: bold;
 }
 .home-button a:hover {
   color: red;
-}
-header li {
-  padding: 0 2rem;
-}
+} */
+
 footer {
   text-align: right;
 }
@@ -59,17 +97,19 @@ img {
   align-self: flex-end;
 }
 #wrapper {
-  width: 80%;
+  /* width: 65%; */
+  max-width: 1250px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1550px;
+  /* max-width: 1550px; */
   /* position: relative; */
 }
+/* TODO change current main to header */
 main {
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
-  padding: 10rem 0;
+  padding: 13rem 0 10rem 0;
   display: flex;
   justify-content: space-between;
 }
@@ -81,21 +121,23 @@ main {
 .socials {
   font-size: 1.5rem;
 }
-.socials li {
+/* .socials li {
   padding: 0 0.2rem;
-}
-/* .leftmost {
-  padding-left: 0;
-}
-.rightmost {
-  padding-right: 0;
 } */
-.socials a:link {
-  color: red;
-}
+.socials a:link,
 .socials a:visited {
   color: red;
+  border: 1px solid white;
+  padding: 0.2rem 0.3rem 0.4rem 0.3rem;
+  border-radius: 5px;
 }
+/* .socials a:visited {
+  color: red;
+  border: 1px solid white;
+} */
 .socials a:hover {
-  color: brown;
+  color: red;
+  padding: 0.2rem 0.3rem 0.4rem 0.3rem;
+  border-radius: 10px;
+  border: 1px solid red;
 }
