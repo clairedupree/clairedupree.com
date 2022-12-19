@@ -1,17 +1,15 @@
-* {
-  /* color: red; */
-}
+/* Claire Dupree
+12/18/22 */
+
+/* * {} */
 
 a {
   text-decoration: none;
 }
 #wrapper {
-  /* width: 65%; */
   max-width: 1250px;
   margin-left: auto;
   margin-right: auto;
-  /* max-width: 1550px; */
-  /* position: relative; */
 }
 
 /* NAVIGATION CONTAINER */
@@ -22,14 +20,11 @@ a {
   width: 100%;
   top: 0;
   left: 0;
-  /* margin: auto; */
-  /* border: 1px solid red; */
   font-size: 1.8rem;
   padding: 3rem 0rem 2rem 0rem;
 }
 
 #nav-flex {
-  /* border: 1px solid blue; */
   width: 65%;
   display: flex;
   justify-content: space-between;
@@ -59,7 +54,6 @@ nav a:visited {
 }
 .home-button:hover {
   border: solid 1px red;
-  /* text-decoration: underline; */
 }
 .nav-links a {
   padding: 0.2rem 0.3rem 0.4rem 0.3rem;
@@ -68,7 +62,6 @@ nav a:visited {
 
 .nav-links a:hover {
   border: dotted 1px red;
-  /* text-decoration: underline; */
 }
 
 /* SECTIONS */
@@ -77,10 +70,6 @@ section {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 15rem;
-  /* padding-top: 15rem; */
-  /* padding: 10rem 0 10rem 0; */
-  /* display: flex; */
-  /* justify-content: space-between; */
 }
 
 .section-header {
@@ -88,10 +77,9 @@ section {
   color: red;
   font-size: 8rem;
   padding-top: 9rem;
-  /* margin: 0; */
 }
 
-/* HOMEPAGE */
+/* HOME */
 #home {
   padding-top: 13rem;
   display: flex;
@@ -236,16 +224,12 @@ section {
 #contact a:link,
 #contact a:visited {
   color: red;
-  /* font-weight: bold; */
-  /* background-color: pink; */
   border: 1px solid white;
-  /* padding: 0.2rem 0.3rem 0.4rem 0.3rem; */
   border-radius: 10px;
 }
 
 #contact a:hover {
   color: red;
-  /* border: 1px solid red; */
   text-decoration: underline;
 }
 
@@ -253,7 +237,6 @@ section {
 footer {
   text-align: center;
   color: grey;
-  /* padding: 15rem 0 5rem 0; */
   padding-bottom: 5rem;
 }
 
