@@ -142,8 +142,19 @@ section {
 }
 
 /* TECH */
+#tech dt {
+  font-size: 2rem;
+  color: red;
+}
+#tech dd {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
 
 /* ART */
+#art {
+  text-align: center;
+}
 #art ul {
   margin-bottom: 0;
   padding-left: 0;

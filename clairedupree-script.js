@@ -3,6 +3,8 @@
 // homeHeaders.style.color = "red";
 const initialOpacity = 0.8;
 const galleryImages = $("#gallery-images");
+// const homeSection = $("#home");
+const homeLink = $("#home-link");
 
 // select nav jump links, add scroll eventlistener
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
@@ -19,6 +21,29 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 // homeHeaders.firstChild.style.color = "blue";
 // add a hover effect for each letter
 $(document).ready(() => {
+  homeLink.hide();
+
+  document.addEventListener("scroll", (e) => {
+    console.log("scroll");
+    // console.log($("#tech").scrollTop());
+
+    if ($(window).scrollTop() > 800) {
+      homeLink.fadeIn();
+    } else {
+      homeLink.fadeOut();
+    }
+  });
+
+  // $(document).ready(() => {
+  //   document.addEventListener("scroll", (e) => {
+  //     console.log("scroll");
+  //     if ($("#home").is(":visible")) {
+  //       homeLink.hide();
+  //     } else {
+  //       homeLink.show();
+  //     }
+  //   });
+
   // $(".home-header span").css("opacity", initialOpacity);
   // $(".home-header span").hover(
   //   () => console.log("in"),

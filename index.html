@@ -13,7 +13,6 @@
 
 <body>
   <!-- WRAPPER -->
-  <!-- todo: fix navbar and section padding styles inside wrapper -->
   <div id="wrapper">
 
     <!-- NAVIGATION -->
@@ -27,7 +26,8 @@
 
             <div>
               <ul class="nav-links">
-                <!-- <li><a href="#home">home</a></li> -->
+                <!-- TODO: show home when section is not visible -->
+                <li><a id="home-link" href="#home">home</a></li>
                 <li><a href="#tech">tech</a></li>
                 <li><a href="#art">art</a></li>
                 <li><a href="#about">about</a></li>
@@ -44,7 +44,6 @@
       <section id="home">
 
         <!-- Header -->
-        <!-- TODO: why do styles break when deleting this div -->
         <div>
           <h1 class="home-header hover-animate-h1">
             <!-- <h1 class="home-header"> -->
@@ -97,6 +96,56 @@
           </span><span>s</span><span>k</span><span>i</span><span>l</span><span>l</span><span>s</span>
           <!-- technical skills -->
         </h1>
+
+        <table>
+
+          <dl>
+            <dt>Programming</dt>
+            <dd>
+              Javascript, HTML, CSS, PHP, Twig,
+              Java, Python, C++, SQL, JSON, YAML
+            </dd>
+
+            <dt>Libraries</dt>
+            <dd>
+              jQuery, Bootstrap, React
+            </dd>
+
+            <dt>Tools</dt>
+            <dd>
+              Linux, Git, GitHub, BitBucket, Drupal,
+              Lando, Drush, Composer, Jira, Agile Methodology, WCAG
+            </dd>
+
+            <dt>Server Technology</dt>
+            <dd>
+              SQL Developer
+            </dd>
+            <dt>Development</dt>
+            <dd>
+              Software Documentation, Database
+              Management, Product Demonstrations
+            </dd>
+
+            <dt>Software</dt>
+            <dd>
+              Visual Studio Code, Google Suite, Adobe
+              Creative Suite, GIMP, Microsoft Office Suite
+            </dd>
+
+            <dt>Creative</dt>
+            <dd>
+              Graphic Design, Fine Arts
+            </dd>
+
+            <dt>
+              Hospitality
+            </dt>
+            <dd>
+              Mediation, Customer Service, Diversity Equity Accessibility and Inclusion Training
+            </dd>
+          </dl>
+        </table>
       </section>
       <!-- end tech page -->
 
@@ -104,27 +153,29 @@
       <section id="art">
         <h1 class="section-header hover-animate-sect">
           <span>a</span><span>r</span><span>t</span>
-          <!-- art -->
-          <div>
-            <ul>
-              <li><img src="images/1.jpg" alt="" id=""></li>
-              <li><img src="images/2.jpg" alt="" id=""></li>
-              <li><img src="images/3.jpg" alt="" id=""></li>
-              <li><img src="images/4.jpg" alt="" id=""></li>
-              <li><img src="images/5.jpg" alt="" id=""></li>
-              <!-- <li><img src="images/6.jpg" alt="" id=""></li> -->
-              <!-- <li><img src="images/7.jpg" alt="" id=""></li> -->
-              <li><img src="images/8.jpg" alt="" id=""></li>
-              <li><img src="images/9.jpg" alt="" id=""></li>
-              <li><img src="images/10.jpg" alt="" id=""></li>
-              <li><img src="images/11.jpg" alt="" id=""></li>
-              <li><img src="images/12.jpg" alt="" id=""></li>
-              <!-- <li><img src="images/13.jpg" alt="" id=""></li> -->
-            </ul>
-          </div>
+        </h1>
 
-          <!-- TODO: create carousel / slideshow -->
-          <!-- <div id="gallery">
+        <!-- art -->
+        <div>
+          <ul>
+            <li><img src="images/1.jpg" alt="" id=""></li>
+            <li><img src="images/2.jpg" alt="" id=""></li>
+            <li><img src="images/3.jpg" alt="" id=""></li>
+            <li><img src="images/4.jpg" alt="" id=""></li>
+            <li><img src="images/5.jpg" alt="" id=""></li>
+            <!-- <li><img src="images/6.jpg" alt="" id=""></li> -->
+            <!-- <li><img src="images/7.jpg" alt="" id=""></li> -->
+            <li><img src="images/8.jpg" alt="" id=""></li>
+            <li><img src="images/9.jpg" alt="" id=""></li>
+            <li><img src="images/10.jpg" alt="" id=""></li>
+            <li><img src="images/11.jpg" alt="" id=""></li>
+            <li><img src="images/12.jpg" alt="" id=""></li>
+            <!-- <li><img src="images/13.jpg" alt="" id=""></li> -->
+          </ul>
+        </div>
+
+        <!-- TODO: create carousel / slideshow -->
+        <!-- <div id="gallery">
             <div id="left-button" class="gallery-button" name="Left Arrow">&larr;</div>
             <div id="gallery-display">
               <ul id="gallery-images">
@@ -146,7 +197,6 @@
             <div id="right-button" class="gallery-button" name="Right Arrow">&rarr;</div>
           </div> -->
 
-        </h1>
       </section>
       <!-- end art page -->
 
