@@ -257,3 +257,18 @@ footer a:visited {
 footer a:hover {
   text-decoration: underline;
 }
+
+.coming-soon {
+  padding-top: 3rem;
+  font-size: 2rem;
+  color: dimgrey;
+}
+
+/* .h1-animated-container {
+  line-height: min(10rem);
+  font-size: min(10rem);
+  min-height: 10rem;
+}
+
+.animation-container {
+} */
