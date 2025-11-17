@@ -1,0 +1,259 @@
+/* Claire Dupree
+12/18/22 */
+
+/* * {} */
+
+a {
+  text-decoration: none;
+}
+#wrapper {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* NAVIGATION CONTAINER */
+#navbar {
+  background-color: white;
+  position: fixed;
+  font-weight: bold;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: 1.8rem;
+  padding: 3rem 0rem 2rem 0rem;
+}
+
+#nav-flex {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+/* NAVIGATION BAR */
+nav li {
+  padding: 0 2rem;
+  display: inline;
+}
+nav ul {
+  padding-left: 0;
+  display: inline;
+}
+
+nav a:link,
+nav a:visited {
+  color: red;
+  border: solid 1px white;
+}
+
+.home-button {
+  background-color: pink;
+  padding: 5px 10px 10px 10px;
+  border-radius: 30px;
+}
+.home-button:hover {
+  border: solid 1px red;
+}
+.nav-links a {
+  padding: 0.2rem 0.3rem 0.4rem 0.3rem;
+  border-radius: 10px;
+}
+
+.nav-links a:hover {
+  border: dotted 1px red;
+}
+
+/* SECTIONS */
+section {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15rem;
+}
+
+.section-header {
+  text-align: center;
+  color: red;
+  font-size: 8rem;
+  padding-top: 9rem;
+}
+
+/* HOME */
+#home {
+  padding-top: 13rem;
+  display: flex;
+  justify-content: space-between;
+  color: red;
+}
+
+.home-header {
+  font-size: 10rem;
+  margin: 0;
+}
+
+.home-subheader {
+  font-size: 3rem;
+  margin: 0;
+}
+
+#home ul {
+  padding-left: 0;
+  display: inline;
+}
+
+#home li {
+  display: inline;
+}
+
+.socials {
+  font-size: 1.5rem;
+}
+
+.socials a:link,
+.socials a:visited {
+  color: red;
+  /* background-color: pink; */
+  border: 1px solid white;
+  padding: 0.2rem 0.3rem 0.4rem 0.3rem;
+  border-radius: 10px;
+}
+
+.socials a:hover {
+  color: red;
+  border: 1px dotted red;
+}
+
+.headshot {
+  width: 450px;
+  align-self: flex-end;
+}
+
+/* TECH */
+#tech dt {
+  font-size: 2rem;
+  color: red;
+}
+#tech dd {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* ART */
+#art {
+  text-align: center;
+}
+#art ul {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+#art li {
+  display: inline;
+}
+
+#art li img {
+  max-height: 500px;
+}
+
+/* GALLERY */
+.gallery-button {
+  float: left;
+  font-size: 3rem;
+  margin: 0;
+  padding: 17rem 1rem 1rem 1rem;
+}
+#gallery {
+  padding-bottom: 15rem;
+}
+
+#gallery-display {
+  overflow: hidden;
+  float: left;
+  width: 80%;
+  padding-left: 0;
+}
+
+#gallery-images {
+  left: 0px;
+  /* position: relative; */
+  width: 10000px;
+  list-style: none;
+}
+
+#gallery-display ul {
+  padding: 0;
+}
+
+#gallery-images li {
+  float: left;
+  display: inline;
+}
+
+#gallery-images li img {
+  height: 400px;
+}
+
+/* ABOUT */
+#about {
+  text-align: center;
+}
+
+#about p {
+  font-size: 1.5rem;
+  margin: auto;
+  max-width: 800px;
+  padding-bottom: 1rem;
+}
+
+/* CONTACT */
+#contact {
+  color: red;
+  font-size: 1.5rem;
+  text-align: center;
+}
+#contact li {
+  list-style: none;
+  padding: 0.6rem;
+}
+#contact ul {
+  padding-left: 0;
+}
+
+#contact a:link,
+#contact a:visited {
+  color: red;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#contact a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  color: grey;
+  padding-bottom: 5rem;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer li {
+  display: inline;
+  padding: 0.5rem;
+}
+
+footer a:link,
+footer a:visited {
+  color: grey;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
