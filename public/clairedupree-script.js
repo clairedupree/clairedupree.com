@@ -34,28 +34,28 @@ $(document).ready(() => {
   });
 
   // animate text on hover
-  $(".hover-animate-sect span").hover(
-    function () {
-      $(this).animate({ fontSize: "7rem" }, 150);
-    },
-    function () {
-      $(this).animate({ fontSize: "8rem" }, 150);
-    }
-  );
+  // $(".hover-animate-sect span").hover(
+  //   function () {
+  //     $(this).animate({ fontSize: "7rem" }, 150);
+  //   },
+  //   function () {
+  //     $(this).animate({ fontSize: "8rem" }, 150);
+  //   }
+  // );
   $(".hover-animate-h1 span").hover(
     function () {
-      $(this).animate({ fontSize: "9rem" }, 150);
+      $(this).animate({ fontSize: "-=.5rem" }, 150);
     },
     function () {
-      $(this).animate({ fontSize: "10rem" }, 150);
+      $(this).animate({ fontSize: "+=.5rem" }, 150);
     }
   );
   $(".hover-animate-h2 span").hover(
     function () {
-      $(this).animate({ fontSize: "2.8rem" }, 150);
+      $(this).animate({ fontSize: "-=.2rem" }, 150);
     },
     function () {
-      $(this).animate({ fontSize: "3rem" }, 150);
+      $(this).animate({ fontSize: "+=.2rem" }, 150);
     }
   );
 });

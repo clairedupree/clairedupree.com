@@ -72,28 +72,33 @@ section {
   padding-bottom: 15rem;
 }
 
-.section-header {
+/* .section-header {
   text-align: center;
   color: red;
   font-size: 8rem;
   padding-top: 9rem;
-}
+} */
 
 /* HOME */
 #home {
-  padding-top: 13rem;
+  padding-top: 15%;
   display: flex;
   justify-content: space-between;
   color: red;
 }
 
-.home-header {
-  font-size: 10rem;
+h1 {
+  /* .home-header { */
+  font-size: 7rem;
   margin: 0;
 }
+/* .word {
+  height: 10rem;
+} */
 
-.home-subheader {
-  font-size: 3rem;
+h2 {
+  /* .home-subheader { */
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -260,7 +265,7 @@ footer a:hover {
 
 .coming-soon {
   padding-top: 3rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: dimgrey;
 }
 
